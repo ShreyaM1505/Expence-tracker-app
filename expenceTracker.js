@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded" ,()=>{
             cartName.push(newExpences)
             console.log(cartName)
             saveExpencesToLocal();
-            Addamount(newExpences);
+            Addamount();
             expenceList(newExpences);
             ExpenceName.value="";
             ExpenceAmount.value="";
